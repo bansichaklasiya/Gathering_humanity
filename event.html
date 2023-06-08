@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>Event page</title>
+    <link rel="stylesheet" href="css/re.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body background="images/background.png">
+<div class="container">
+        <div class="title"> Add Event Details</div>
+        <div class="content">
+        <form class=r1 action="php/event.php" method="POST">
+            <div class="user-details">
+        	<div class="input-box">
+                <span class="details">Event Name:</span>
+                <input type="text" size="90px"placeholder="Enter the event name" name="ename" >
+            </div>
+            <div class="input-box">
+                <span class="details">Event Location:</span>
+                <input type="text" size="90px" placeholder="Enter your location" name="elocation">
+            </div>
+            <div class="input-box">
+                <span class="details">Event Description:</span> 
+                <input type="text" size="90px" maxlength="100px"placeholder="Enter description about event"name="ediscription"> 
+            </div>
+            <div class="input-box">
+                    <span class="details">Event Start Date:</span>
+                    <input type="date" placeholder="Start Date" name="sdate">
+            </div>
+            <div class="input-box">
+                <span class="details">Event End Date:</span> 
+                <input type="date" placeholder="End Date" name="edate"> 
+            </div>
+            <div class="input-box">
+                    <span class="details">Participate:</span>
+                    <input type="text" size="90px" placeholder="Enter name of participate people" name="eparticipate"> 
+            </div>
+            <div class="input-box">
+                <span class="details">Volunteer:</span> 
+                <input type="text" size="90px"placeholder="Enter the name of volunteer" name="evolunteer">
+                </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="ADD Event">
+                  </div>
+    </form>
+    </div>
+</div>
+</body>
+
+</html>
